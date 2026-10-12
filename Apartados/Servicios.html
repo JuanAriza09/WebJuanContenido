@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>Servicios — Les Clefs Food Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Estilos/style.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="header-top-row">
+
+    <!-- IZQUIERDA: firma del Chef + lema -->
+    <a href="NosotrosHistoria.html#juanantonio" class="header-firma" aria-label="Juan Antonio — Diseñar sabores es mi oficio. Crear recuerdos, mi legado.">
+      <img src="../Portafolio/Firma.png" alt="Firma de Juan Antonio" class="header-firma-img">
+      <span class="header-firma-text">
+        <span class="header-firma-rule" aria-hidden="true"><i></i><b>◆</b><i></i></span>
+        <span class="header-firma-lema"><span>Diseñar sabores es mi oficio.</span> <span>Crear recuerdos, mi legado.</span></span>
+        <strong>Juan Antonio</strong>
+      </span>
+    </a>
+    <div class="header-brand-link-wrap">
+      <a href="../index.html" class="header-brand-link" aria-label="Les Clefs Food Design — Inicio">
+        <img src="../Portafolio/TituloPrincipal.png" alt="Les Clefs Food Design" class="header-main-logo">
+      </a>
+    </div>
+    <!-- DERECHA: sub-marcas -->
+    <div class="header-ecosistema">
+      <span class="header-ecosistema-label">Nuestro ecosistema</span>
+      <div class="header-sublogos">
+        <a href="NosotrosHistoria.html#juanantonio" class="header-sublogo-item logo-brand-link" aria-label="Juan Antonio">
+          <img src="../FotosDecoraciones/Logo.png" alt="Juan Antonio — Chef Diseñador Culinario" class="header-sublogo-img logo-brand">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+        <a href="../Apartados/NosotrosHistoria.html#meyta" class="header-sublogo-item" aria-label="MEYTA Spirits">
+          <img src="../FotosDecoraciones/LOGO MEYTA 2026-01.png" alt="MEYTA Spirits" class="header-sublogo-img logo-meyta">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+        <a href="../Apartados/NosotrosHistoria.html#roggen" class="header-sublogo-item" aria-label="Roggen">
+          <img src="../FotosDecoraciones/LOGOROGGENREDES.jpg" alt="Roggen" class="header-sublogo-img logo-roggen">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="header-nav-row">
+    <nav class="nav-desktop" aria-label="Menú principal">
+      <a href="../index.html#chef">Sobre el Chef</a>
+      <a href="../index.html#especialidades">Especialidades</a>
+      <a href="Portafolio.html">Galería</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="../index.html#experiencias">Experiencias</a>
+      <a href="../index.html#masterclases">Masterclases</a>
+      <a href="../index.html#academia">Academia</a>
+      <a href="Obsequios.html">Obsequios</a>
+      <a href="Chachivaches.html">Chachivaches</a>
+      <a href="viajes.html">Viajes</a>
+      <a href="../index.html#contacto-sec">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+  <span></span><span></span><span></span>
+</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+<nav class="nav-panel" id="navPanel" aria-label="Menú móvil">
+  <span class="nav-panel-brand">Les Clefs Food Design</span>
+  <ul>
+    <li><a href="../index.html#chef"           data-num="01">Sobre el Chef</a></li>
+    <li><a href="../index.html#especialidades" data-num="02">Especialidades</a></li>
+    <li><a href="Portafolio.html"               data-num="03">Galería</a></li>
+    <li><a href="Servicios.html"               data-num="04">Servicios</a></li>
+    <li><a href="../index.html#experiencias"   data-num="05">Experiencias</a></li>
+    <li><a href="../index.html#masterclases"   data-num="06">Masterclases</a></li>
+    <li><a href="../index.html#academia"       data-num="07">Academia</a></li>
+    <li><a href="viajes.html"         data-num="08">Viajes</a></li>
+    <li><a href="Obsequios.html"               data-num="09">Obsequios</a></li>
+    <li><a href="Chachivaches.html"            data-num="10">Chachivaches</a></li>
+    <li><a href="../index.html#contacto-sec"   data-num="11">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="lightbox" id="portfolioLightbox" role="dialog" aria-modal="true">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar">&#x2715;</button>
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-title" id="lbTitle"></div>
+    <p class="lb-text" id="lbText"></p>
+  </div>
+</div>
+
+<main>
+  <div class="portada-banner">
+    <img src="../FotosDecoraciones/PortadaPortafolio.png" alt="Les Clefs Food Design" class="portada-banner-img">
+  </div>
+
+  <section class="seccion seccion--servicios" style="padding-top:80px;">
+    <div class="sec-inner">
+      <h2>Eventos y Celebraciones</h2>
+    <div class="services-list">
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">01</span><h3>Catering y Eventos Exclusivos</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Servicio impecable para bodas, aniversarios y eventos corporativos. Menús personalizados de alta cocina para 20 a 500+ invitados.</p>
+          <ul class="svc-list">
+            <li>Menús degustación de alta cocina</li><li>Buffet gourmet y cocina en vivo</li>
+            <li>Pastelería y panadería artesanal</li><li>Coordinación completa del evento</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">02</span><h3>Coctelería de Autor</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Mixología creativa con barra móvil completamente equipada.</p>
+          <ul class="svc-list">
+            <li>Cócteles signature personalizados</li><li>Barra móvil premium</li>
+            <li>Bartenders certificados</li><li>Ingredientes botánicos artesanales</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">03</span><h3>Diseño de Ambientes y Espacios</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Conceptualización y transformación de espacios en escenarios perfectos para celebraciones inolvidables.</p>
+          <ul class="svc-list">
+            <li>Concepto visual completo</li><li>Mobiliario y decoración temática</li>
+            <li>Iluminación ambiental profesional</li><li>Montaje y desmontaje incluido</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">04</span><h3>Servicio Profesional de Mesa y Bar</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Personal altamente capacitado, discreto y profesional para garantizar excelencia operativa.</p>
+          <ul class="svc-list">
+            <li>Meseros con experiencia internacional</li><li>Servicio emplatado o buffet</li>
+            <li>Vajilla, cristalería y mantelería premium</li>
+          </ul>
+        </div></div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="seccion seccion--servicios">
+    <div class="sec-inner">
+      <h2>Cocina Residencial</h2>
+      <div class="services-list">
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">01</span><h3>Inteligencia Alimentaria y Chef Privado</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Programa que transforma su relación con la cocina: diagnóstico, asesoría y clases magistrales personalizadas.</p>
+            <ul class="svc-list">
+              <li>Auditoría de cocina y despensa</li><li>Clases magistrales personalizadas</li>
+              <li>Planificación de menús semanales</li><li>Chef privado para eventos en casa</li>
+            </ul>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="seccion seccion--servicios">
+    <div class="sec-inner">
+      <h2>Consultoría Empresarial</h2>
+    <div class="services-list">
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">01</span><h3>Consultoría Integral de Negocios</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>De la idea a la operación: acompañamiento completo para proyectos gastronómicos de alto nivel.</p>
+          <ul class="svc-list">
+            <li>Análisis de viabilidad</li><li>Diseño de concepto gastronómico</li>
+            <li>Optimización de costos</li><li>Estrategia de lanzamiento</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">02</span><h3>Diseño de Menús y Experiencias</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Propuestas culinarias innovadoras que reflejan la identidad de su establecimiento.</p>
+          <ul class="svc-list">
+            <li>Desarrollo de carta completa</li><li>Ingeniería de menús (food cost)</li>
+            <li>Fichas técnicas y estandarización</li><li>Menús estacionales y especiales</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">03</span><h3>Embajador de Marca y Renovación</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Revitalización de marcas gastronómicas con estrategia integral y contenido digital premium.</p>
+          <ul class="svc-list">
+            <li>Renovación de identidad de marca</li><li>Fotografía gastronómica profesional</li>
+            <li>Producción de video</li><li>Estrategia en redes sociales</li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="svc-item">
+        <div class="svc-header">
+          <div class="svc-header-left"><span class="svc-num">04</span><h3>Proveeduría de Ingredientes Selectos</h3></div>
+          <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="svc-body"><div class="svc-body-inner">
+          <p>Acceso exclusivo a ingredientes premium, productos especializados e insumos de alta gama.</p>
+          <ul class="svc-list">
+            <li>Productos importados exclusivos</li><li>Ingredientes orgánicos certificados</li>
+            <li>Proteínas premium y mariscos frescos</li><li>Vinos y licores especializados</li>
+          </ul>
+        </div></div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="seccion" style="text-align:center; padding-top:48px; padding-bottom:80px;">
+    <div class="sec-inner">
+      <em class="brilon" style="font-size:1.4rem; display:block; margin-bottom:36px;">"Cada evento es una obra de arte efímera"</em>
+      <div class="cta-wrap" style="justify-content:center;">
+        <a href="../index.html#contacto-sec" class="btn-principal">Solicitar Cotización</a>
+        <a href="../index.html" class="btn-ghost">← Volver al Inicio</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 <span>Les Clefs Food Design</span> &nbsp;·&nbsp; Chef Juan Antonio Gómez &nbsp;·&nbsp; Bogotá, Colombia</p>
+</footer>
+
+<script src="../Estilos/script.js"></script>
+</body>
+</html>

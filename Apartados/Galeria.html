@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>Galería — Les Clefs Food Design</title>
+  <meta name="description" content="Galería de proyectos de Les Clefs Food Design: eventos, coctelería de autor, formación y consultoría gastronómica. Chef Juan Antonio Gómez — Bogotá, Colombia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Estilos/style.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="header-top-row">
+
+    <!-- IZQUIERDA: firma del Chef + lema -->
+    <a href="../index.html" class="header-firma" aria-label="Juan Antonio — Diseñar sabores es mi oficio. Crear recuerdos, mi legado.">
+      <img src="../Portafolio/Firma.png" alt="Firma de Juan Antonio" class="header-firma-img">
+      <span class="header-firma-text">
+        <span class="header-firma-rule" aria-hidden="true"><i></i><b>◆</b><i></i></span>
+        <span class="header-firma-lema"><span>Diseñar sabores es mi oficio.</span> <span>Crear recuerdos, mi legado.</span></span>
+        <strong>Juan Antonio</strong>
+      </span>
+    </a>
+    <div class="header-brand-link-wrap">
+      <a href="../index.html" class="header-brand-link" aria-label="Les Clefs Food Design — Inicio">
+        <img src="../Portafolio/TituloPrincipal.png" alt="Les Clefs Food Design" class="header-main-logo">
+      </a>
+    </div>
+    <!-- DERECHA: sub-marcas -->
+    <div class="header-sublogos">
+      <a href="../index.html" class="header-sublogo-item logo-brand-link" aria-label="Les Clefs Food Design — Inicio">
+        <img src="../FotosDecoraciones/Logo.png" alt="Les Clefs Food Design" class="header-sublogo-img logo-brand">
+      </a>
+      <span class="header-sub-sep" aria-hidden="true"></span>
+      <a href="../Apartados/NosotrosHistoria.html#meyta" class="header-sublogo-item" aria-label="MEYTA Spirits">
+        <img src="../FotosDecoraciones/LOGO MEYTA 2026-01.png" alt="MEYTA Spirits" class="header-sublogo-img logo-meyta">
+      </a>
+      <span class="header-sub-sep" aria-hidden="true"></span>
+      <a href="../Apartados/NosotrosHistoria.html#roggen" class="header-sublogo-item" aria-label="Roggen">
+        <img src="../FotosDecoraciones/LOGOROGGENREDES.jpg" alt="Roggen" class="header-sublogo-img logo-roggen">
+      </a>
+    </div>
+  </div>
+  <div class="header-nav-row">
+    <nav class="nav-desktop" aria-label="Menú principal">
+      <a href="../index.html#chef">Sobre el Chef</a>
+      <a href="../index.html#especialidades">Especialidades</a>
+      <a href="Galeria.html">Galería</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="../index.html#experiencias">Experiencias</a>
+      <a href="../index.html#masterclases">Masterclases</a>
+      <a href="../index.html#academia">Academia</a>
+      <a href="Obsequios.html">Obsequios</a>
+      <a href="Chachivaches.html">Chachivaches</a>
+      <a href="viajes.html">Viajes</a>
+      <a href="../index.html#contacto-sec">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+  <span></span><span></span><span></span>
+</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+<nav class="nav-panel" id="navPanel" aria-label="Menú móvil">
+  <span class="nav-panel-brand">Les Clefs Food Design</span>
+  <ul>
+    <li><a href="../index.html#chef"           data-num="01">Sobre el Chef</a></li>
+    <li><a href="../index.html#especialidades" data-num="02">Especialidades</a></li>
+    <li><a href="Galeria.html"                 data-num="03">Galería</a></li>
+    <li><a href="Servicios.html"               data-num="04">Servicios</a></li>
+    <li><a href="../index.html#experiencias"   data-num="05">Experiencias</a></li>
+    <li><a href="../index.html#masterclases"   data-num="06">Masterclases</a></li>
+    <li><a href="../index.html#academia"       data-num="07">Academia</a></li>
+    <li><a href="viajes.html"         data-num="08">Viajes</a></li>
+    <li><a href="Obsequios.html"               data-num="09">Obsequios</a></li>
+    <li><a href="Chachivaches.html"            data-num="10">Chachivaches</a></li>
+    <li><a href="../index.html#contacto-sec"   data-num="11">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="lightbox" id="portfolioLightbox" role="dialog" aria-modal="true">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar">&#x2715;</button>
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-title" id="lbTitle"></div>
+    <p class="lb-text" id="lbText"></p>
+  </div>
+</div>
+
+<main>
+  <div class="portada-banner">
+    <img src="../Portafolio/4.jpg" alt="Les Clefs Food Design — Galería" class="portada-banner-img">
+  </div>
+
+  <section class="seccion" style="padding-top:80px;">
+    <div class="sec-inner">
+      <span class="label">Creaciones</span>
+      <h2>Galería completa</h2>
+      <p class="lead sec-lead">Una selección de los proyectos más representativos de Les Clefs Food Design. Cada trabajo refleja el nivel de excelencia y el sello creativo de la marca. Haga clic en cualquier pieza para ver el detalle.</p>
+
+      <div class="portfolio-grid" style="margin-top:44px;">
+
+        <div class="portfolio-item" data-img="../Portafolio/4.jpg" data-title="Cena de Gala Corporativa" data-text="Evento empresarial premium para 200 invitados con menú de autor de 6 tiempos. Ambientación, servicio y cocina en vivo coordinados al detalle.">
+          <div class="portfolio-circle">
+            <img src="../Portafolio/4.jpg" alt="Cena de Gala Corporativa" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Cena de Gala</h3>
+            <p>Eventos corporativos</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="../Portafolio/2.png" data-title="Coctelería Signature" data-text="Creaciones de mixología exclusiva con ingredientes botánicos colombianos. Barra móvil completa para eventos y lanzamientos de marca.">
+          <div class="portfolio-circle">
+            <img src="../Portafolio/2.png" alt="Coctelería Signature" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Coctelería Signature</h3>
+            <p>Mixología de autor</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="../Portafolio/3.png" data-title="Laboratorio Itinerante" data-text="Taller móvil de mixología y cocina con ingredientes botánicos y técnicas de vanguardia. Experiencia inmersiva para grupos seleccionados.">
+          <div class="portfolio-circle">
+            <img src="../Portafolio/3.png" alt="Laboratorio Itinerante" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Laboratorio Itinerante</h3>
+            <p>Formación inmersiva</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="../Portafolio/1.png" data-title="Cóctel Diplomático" data-text="Recepción oficial en la Embajada de Colombia en India. Gastronomía colombiana presentada al mundo con excelencia y rigor protocolar.">
+          <div class="portfolio-circle">
+            <img src="../Portafolio/1.png" alt="Cóctel Diplomático" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Cóctel Diplomático</h3>
+            <p>Embajada Colombia</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="" data-title="Consultoría Integral" data-text="Rediseño completo de concepto, carta y estrategia para restaurante en Bogotá. Acompañamiento desde la concepción hasta la apertura.">
+          <div class="portfolio-circle portfolio-circle--placeholder"></div>
+          <div class="portfolio-caption">
+            <h3>Consultoría Integral</h3>
+            <p>Restaurante · Bogotá</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="" data-title="Fotografía Gastronómica" data-text="Contenido visual premium que posiciona marcas culinarias en el mercado. Producción profesional para restaurantes y chefs.">
+          <div class="portfolio-circle portfolio-circle--placeholder"></div>
+          <div class="portfolio-caption">
+            <h3>Fotografía Gastronómica</h3>
+            <p>Marcas culinarias</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" style="text-align:center; padding-top:8px; padding-bottom:80px;">
+    <div class="sec-inner">
+      <em class="brilon" style="font-size:1.4rem; display:block; margin-bottom:36px;">"Cada proyecto cuenta una historia distinta"</em>
+      <div class="cta-wrap" style="justify-content:center;">
+        <a href="../index.html#contacto-sec" class="btn-principal">Solicitar Cotización</a>
+        <a href="../index.html" class="btn-ghost">← Volver al Inicio</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 <span>Les Clefs Food Design</span> &nbsp;·&nbsp; Chef Juan Antonio Gómez &nbsp;·&nbsp; Bogotá, Colombia</p>
+</footer>
+
+<script src="../Estilos/script.js"></script>
+</body>
+</html>

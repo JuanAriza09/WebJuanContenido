@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>Chachivaches — Les Clefs Food Design</title>
+  <meta name="description" content="Chachivaches: objetos, curiosidades y piezas de autor para la cocina y la mesa. Chef Juan Antonio Gómez — Bogotá, Colombia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Estilos/style.css">
+</head>
+<body>
+
+<header id="site-header">
+  <div class="header-top-row">
+
+    <!-- IZQUIERDA: firma del Chef + lema -->
+    <a href="NosotrosHistoria.html#juanantonio" class="header-firma" aria-label="Juan Antonio — Diseñar sabores es mi oficio. Crear recuerdos, mi legado.">
+      <img src="../Portafolio/Firma.png" alt="Firma de Juan Antonio" class="header-firma-img">
+      <span class="header-firma-text">
+        <span class="header-firma-rule" aria-hidden="true"><i></i><b>◆</b><i></i></span>
+        <span class="header-firma-lema"><span>Diseñar sabores es mi oficio.</span> <span>Crear recuerdos, mi legado.</span></span>
+        <strong>Juan Antonio</strong>
+      </span>
+    </a>
+    <div class="header-brand-link-wrap">
+      <a href="../index.html" class="header-brand-link" aria-label="Les Clefs Food Design — Inicio">
+        <img src="../Portafolio/TituloPrincipal.png" alt="Les Clefs Food Design" class="header-main-logo">
+      </a>
+    </div>
+    <!-- DERECHA: sub-marcas -->
+    <div class="header-ecosistema">
+      <span class="header-ecosistema-label">Nuestro ecosistema</span>
+      <div class="header-sublogos">
+        <a href="NosotrosHistoria.html#juanantonio" class="header-sublogo-item logo-brand-link" aria-label="Juan Antonio">
+          <img src="../FotosDecoraciones/Logo.png" alt="Juan Antonio — Chef Diseñador Culinario" class="header-sublogo-img logo-brand">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+        <a href="../Apartados/NosotrosHistoria.html#meyta" class="header-sublogo-item" aria-label="MEYTA Spirits">
+          <img src="../FotosDecoraciones/LOGO MEYTA 2026-01.png" alt="MEYTA Spirits" class="header-sublogo-img logo-meyta">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+        <a href="../Apartados/NosotrosHistoria.html#roggen" class="header-sublogo-item" aria-label="Roggen">
+          <img src="../FotosDecoraciones/LOGOROGGENREDES.jpg" alt="Roggen" class="header-sublogo-img logo-roggen">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="header-nav-row">
+    <nav class="nav-desktop" aria-label="Menú principal">
+      <a href="../index.html#chef">Sobre el Chef</a>
+      <a href="../index.html#especialidades">Especialidades</a>
+      <a href="Portafolio.html">Galería</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="../index.html#experiencias">Experiencias</a>
+      <a href="../index.html#masterclases">Masterclases</a>
+      <a href="../index.html#academia">Academia</a>
+      <a href="Obsequios.html">Obsequios</a>
+      <a href="Chachivaches.html">Chachivaches</a>
+      <a href="viajes.html">Viajes</a>
+      <a href="../index.html#contacto-sec">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+  <span></span><span></span><span></span>
+</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+<nav class="nav-panel" id="navPanel" aria-label="Menú móvil">
+  <span class="nav-panel-brand">Les Clefs Food Design</span>
+  <ul>
+    <li><a href="../index.html#chef"           data-num="01">Sobre el Chef</a></li>
+    <li><a href="../index.html#especialidades" data-num="02">Especialidades</a></li>
+    <li><a href="Portafolio.html"                 data-num="03">Galería</a></li>
+    <li><a href="Servicios.html"               data-num="04">Servicios</a></li>
+    <li><a href="../index.html#experiencias"   data-num="05">Experiencias</a></li>
+    <li><a href="../index.html#masterclases"   data-num="06">Masterclases</a></li>
+    <li><a href="../index.html#academia"       data-num="07">Academia</a></li>
+    <li><a href="viajes.html"         data-num="08">Viajes</a></li>
+    <li><a href="Obsequios.html"               data-num="09">Obsequios</a></li>
+    <li><a href="Chachivaches.html"            data-num="10">Chachivaches</a></li>
+    <li><a href="../index.html#contacto-sec"   data-num="11">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="lightbox" id="portfolioLightbox" role="dialog" aria-modal="true">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar">&#x2715;</button>
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-title" id="lbTitle"></div>
+    <p class="lb-text" id="lbText"></p>
+  </div>
+</div>
+
+<main>
+  <div class="portada-banner">
+    <img src="../FotosDecoraciones/PortadaPortafolio.png" alt="Les Clefs Food Design — Chachivaches" class="portada-banner-img">
+  </div>
+
+  <!-- CONTENIDO SIMULADO — reemplazar textos, iconos e imágenes reales
+       cuando se defina el contenido definitivo de esta sección. -->
+  <section class="seccion" style="padding-top:80px;">
+    <div class="sec-inner">
+      <span class="label">Detalles con carácter</span>
+      <h2>Chachivaches</h2>
+      <p class="lead sec-lead">Objetos, curiosidades y piezas de autor para la cocina y la mesa — la selección más personal de Les Clefs Food Design. <em>(Página de contenido provisional — pendiente de definición final.)</em></p>
+
+      <div class="prox-grid" style="margin-top:44px;">
+
+        <div class="prox-card fade-up">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Piezas de Autor</h3>
+            <p>Objetos y utensilios de cocina seleccionados por el Chef — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.08s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M3 9h18"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Ediciones Limitadas</h3>
+            <p>Piezas exclusivas y de tiraje reducido — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.12s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M12 2l2.4 7.2H22l-6 4.4 2.3 7.2L12 16.4l-6.3 4.4 2.3-7.2-6-4.4h7.6z"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Curiosidades de Cocina</h3>
+            <p>Detalles y hallazgos con historia para coleccionistas y amantes de la gastronomía — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" style="text-align:center; padding-top:8px; padding-bottom:80px;">
+    <div class="sec-inner">
+      <em class="brilon" style="font-size:1.4rem; display:block; margin-bottom:36px;">"Cada objeto tiene su propia historia"</em>
+      <div class="cta-wrap" style="justify-content:center;">
+        <a href="../index.html#contacto-sec" class="btn-principal">Solicitar Cotización</a>
+        <a href="../index.html" class="btn-ghost">← Volver al Inicio</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 <span>Les Clefs Food Design</span> &nbsp;·&nbsp; Chef Juan Antonio Gómez &nbsp;·&nbsp; Bogotá, Colombia</p>
+</footer>
+
+<script src="../Estilos/script.js"></script>
+</body>
+</html>

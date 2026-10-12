@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1A1A1A">
+  <title>Les Clefs Food Design — Chef Juan Antonio Gómez</title>
+  <meta name="description" content="Diseño culinario de alta cocina, catering exclusivo y consultoría gastronómica. Chef Juan Antonio Gómez — Bogotá, Colombia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Estilos/style.css">
+</head>
+<body>
+
+<!-- Degradado de marca para el ícono de Instagram -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="ig-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#FFDC80"/>
+      <stop offset="25%" stop-color="#FCAF45"/>
+      <stop offset="50%" stop-color="#E1306C"/>
+      <stop offset="75%" stop-color="#C13584"/>
+      <stop offset="100%" stop-color="#833AB4"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!--HEADER -->
+<header id="site-header">
+
+  <!-- Fila superior: 3 columnas — logos | marca | sociales+cta -->
+  <div class="header-top-row">
+
+    <!-- IZQUIERDA: firma del Chef + lema -->
+    <a href="Apartados/NosotrosHistoria.html#juanantonio" class="header-firma" aria-label="Juan Antonio — Diseñar sabores es mi oficio. Crear recuerdos, mi legado.">
+      <img src="Portafolio/Firma.png" alt="Firma de Juan Antonio" class="header-firma-img">
+      <span class="header-firma-text">
+        <span class="header-firma-lema"><span>Diseñar sabores es mi oficio...</span><span>Crear recuerdos, mi legado.</span></span>
+        <strong>Juan Antonio</strong>
+      </span>
+    </a>
+
+       
+
+    <!-- CENTRO: marca principal centrada absolutamente -->
+    <div class="header-brand-link-wrap">
+      <a href="#hero" class="header-brand-link" aria-label="Les Clefs Food Design — Inicio">
+        <img src="Portafolio/TituloPrincipal.png" alt="Les Clefs Food Design" class="header-main-logo">
+      </a>
+    </div>
+
+    <!-- DERECHA: sub-marcas -->
+    <div class="header-ecosistema">
+      <span class="header-ecosistema-label">Nuestro ecosistema</span>
+      <div class="header-sublogos">
+        <a href="Apartados/NosotrosHistoria.html#juanantonio" class="header-sublogo-item logo-brand-link" aria-label="Juan Antonio">
+          <img src="FotosDecoraciones/Logo.png" alt="Juan Antonio — Chef Diseñador Culinario" class="header-sublogo-img logo-brand">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+           <a href="Apartados/NosotrosHistoria.html#roggen" class="header-sublogo-item" aria-label="Roggen">
+          <img src="FotosDecoraciones/LOGOROGGENREDES.jpg" alt="Roggen" class="header-sublogo-img logo-roggen">
+        </a>
+        <span class="header-sub-sep" aria-hidden="true"></span>
+              <a href="Apartados/NosotrosHistoria.html#meyta" class="header-sublogo-item" aria-label="MEYTA Spirits">
+          <img src="FotosDecoraciones/LOGO MEYTA 2026-01.png" alt="MEYTA Spirits" class="header-sublogo-img logo-meyta">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra de navegación -->
+  <div class="header-nav-row">
+    <nav class="nav-desktop" aria-label="Menú principal">
+      <a href="#hero">Inicio</a>
+      <a href="#chef">Sobre el Chef</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="Apartados/Portafolio.html">Galería</a>
+      <a href="Apartados/Servicios.html">Servicios</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#masterclases">Masterclases</a>
+      <a href="#academia">Academia</a>
+      <a href="Apartados/Obsequios.html">Obsequios</a>
+      <a href="Apartados/Chachivaches.html">Chachivaches</a>
+      <a href="Apartados/viajes.html">Viajes</a>
+      <a href="#contacto-sec">Contacto</a>
+    </nav>
+  </div>
+
+</header>
+
+<!-- Barra flotante de redes sociales — esquina inferior derecha -->
+<div class="floating-socials" aria-label="Redes sociales">
+  <a href="https://www.facebook.com/share/1AtAkg6Skd/" class="hdr-soc-btn hdr-soc-btn--facebook" target="_blank" rel="noopener" aria-label="Facebook">
+    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/juanantoniochefdisenador" class="hdr-soc-btn hdr-soc-btn--instagram" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+  </a>
+  <a href="https://wa.me/573157739739" class="hdr-soc-btn hdr-soc-btn--whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<!-- Botón hamburguesa para móvil -->
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- Panel lateral del menú móvil -->
+<nav class="nav-panel" id="navPanel" aria-label="Menu movil">
+  <span class="nav-panel-brand">Les Clefs Food Design</span>
+  <ul>
+    <li><a href="#chef"           data-num="01">Sobre el Chef</a></li>
+    <li><a href="#especialidades" data-num="02">Especialidades</a></li>
+    <li><a href="Apartados/Portafolio.html"     data-num="03">Galería</a></li>
+    <li><a href="Apartados/Servicios.html"      data-num="04">Servicios</a></li>
+    <li><a href="#experiencias"   data-num="05">Experiencias</a></li>
+    <li><a href="#masterclases"   data-num="06">Masterclases</a></li>
+    <li><a href="#academia"       data-num="07">Academia</a></li>
+    <li><a href="Apartados/viajes.html"         data-num="08">Viajes</a></li>
+    <li><a href="Apartados/Obsequios.html"      data-num="09">Obsequios</a></li>
+    <li><a href="Apartados/Chachivaches.html"    data-num="10">Chachivaches</a></li>
+    <li><a href="#contacto-sec"   data-num="11">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- Lightbox del portafolio -->
+<div class="lightbox" id="portfolioLightbox" role="dialog" aria-modal="true" aria-label="Detalle del proyecto">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar">&#x2715;</button>
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-title" id="lbTitle"></div>
+    <p class="lb-text" id="lbText"></p>
+  </div>
+</div>
+
+<main>
+
+  <!-- HERO  -->
+  <section id="hero" class="seccion seccion--hero">
+
+    <!-- Fondo oscuro cinematográfico -->
+    <div class="hero-bg" aria-hidden="true">
+      <video class="hero-bg-video" autoplay muted loop playsinline aria-hidden="true">
+        <source src="FotosDecoraciones/videofondomedallon.mp4" type="video/mp4">
+      </video>
+      <div class="hero-bg-dark"></div>
+      <div class="hero-bg-radial"></div>
+      <div class="hero-bg-grain"></div>
+      <div class="hero-bg-dust"></div>
+    </div>
+
+    <!-- Espaciador = altura del header fijo -->
+    <div class="hero-spacer" aria-hidden="true"></div>
+
+    <!-- Layout principal: contenido centrado -->
+    <div class="hero-main-grid">
+
+    <!-- Contenido editorial centrado -->
+<div class="hero-left-col">
+
+  <!-- Eyebrow dorado pequeño -->
+  <div class="hero-eyebrow-editorial" data-animate="fade-up">
+    <span class="label">Nuestra Esencia</span>
+  </div>
+
+  <!-- Titular principal -->
+  <h1 class="hero-headline-editorial" data-animate="fade-up">
+    Les Clefs Food Design<br>
+    <em>Diseño y Soluciones Gastronómicas</em>
+  </h1>
+
+  <!-- Línea decorativa con diamante -->
+  <div class="nosotros-hero-rule" data-animate="fade-up">
+  </div>
+  <!-- Línea separadora dorada -->
+  <span class="hero-rule-gold" aria-hidden="true"></span>
+
+  <!-- Párrafo descriptivo -->
+  <p class="hero-desc-editorial" data-animate="fade-up">
+    Diseñamos momentos memorables a través
+    de la gastronomía, fusionando técnica,
+    creatividad y emoción en cada detalle.
+  </p>
+
+  <!-- Botón "Descubre Más" -->
+  <a href="#servicios" class="hero-btn-ref" data-animate="fade-up">
+    DESCUBRE MÁS &nbsp;&rarr;
+  </a>
+
+</div>
+
+    </div><!-- /hero-main-grid -->
+
+    <!-- Franja centrada: acento editorial (enlace a Nuestra Historia) -->
+    <a href="Apartados/NosotrosHistoria.html"
+       class="hero-eyebrow hero-eyebrow--bottom"
+       data-animate="fade-up"
+       aria-label="Ciudadanos del Mundo — Conoce nuestra historia">
+    </a>
+    <!-- ── FRANJA INFERIOR: 4 pilares ── -->
+    <div class="hero-features-strip">
+      <div class="hero-feat">
+        <div class="hero-feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="hero-feat-rule" aria-hidden="true"></div>
+        <h3 class="hero-feat-title">EXCELENCIA</h3>
+        <p class="hero-feat-text">Calidad y perfección<br>en cada creación.</p>
+      </div>
+      <div class="hero-feat">
+        <div class="hero-feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <div class="hero-feat-rule" aria-hidden="true"></div>
+        <h3 class="hero-feat-title">CREATIVIDAD</h3>
+        <p class="hero-feat-text">Innovación constante<br>en sabores y conceptos.</p>
+      </div>
+      <div class="hero-feat">
+        <div class="hero-feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/></svg>
+        </div>
+        <div class="hero-feat-rule" aria-hidden="true"></div>
+        <h3 class="hero-feat-title">PASIÓN</h3>
+        <p class="hero-feat-text">Amamos lo que hacemos<br>y se refleja en cada detalle.</p>
+      </div>
+      <div class="hero-feat">
+        <div class="hero-feat-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="hero-feat-rule" aria-hidden="true"></div>
+        <h3 class="hero-feat-title">EXPERIENCIAS</h3>
+        <p class="hero-feat-text">Momentos únicos<br>que permanecen.</p>
+      </div>
+    </div><!-- /hero-features-strip -->
+
+  </section>
+
+  <!-- 2. SOBRE EL CHEF-->
+  <section id="chef" class="seccion">
+    <div id="chef-section">
+      <div class="chef-photo-wrap fade-up">
+        <img src="Portafolio/FondoChef.jpg" alt="Chef Juan Antonio Gómez" loading="lazy">
+      </div>
+      <div class="chef-bio fade-up" style="transition-delay:0.12s;">
+        <span class="label">El Artífice</span>
+        <h2>Chef Juan Antonio Gómez</h2>
+        <span class="chef-subtitle">Chef Diseñador Culinario</span>
+        <p>Con una trayectoria de 18 años en diseño culinario y gestión gastronómica internacional, el Chef Juan Antonio Gómez aporta una vasta experiencia que ha trascendido fronteras. Sus colaboraciones incluyen proyectos con embajadas internacionales, como la de Colombia en India, donde ha promovido la riqueza y diversidad de la gastronomía latinoamericana.</p>
+        <p>Cada proyecto lleva su sello de excelencia: un equipo multidisciplinario especializado en cocina de autor, pastelería fina, mixología, fotografía gastronómica y estrategia de marca.</p>
+        <p class="chef-refs">
+          <a href="https://india.embajada.gov.co/sala-de-prensa/noticias/cooking-class-colombian-empanada-asia-0" target="_blank" rel="noopener noreferrer">Nota — Embajada de Colombia en India</a>
+          <a href="https://reversointeresante.wixsite.com/reverso/post/juang%C3%B3mezdise%C3%B1adorculinario" target="_blank" rel="noopener noreferrer">Artículo — Reverso Interesante</a>
+          <a href="https://repositorio.uniandes.edu.co/server/api/core/bitstreams/6712e778-8506-41e9-981f-41458412c1b5/content" target="_blank" rel="noopener noreferrer">Publicación — Universidad de los Andes</a>
+        </p>
+        <div class="chef-stats">
+          <div class="chef-stat">
+            <span class="stat-num">18</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="chef-stat">
+            <span class="stat-num">+12</span>
+            <span class="stat-label">Países recorridos</span>
+          </div>
+          <div class="chef-stat">
+            <span class="stat-num">+2000</span>
+            <span class="stat-label">Eventos realizados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── MI HISTORIA — bloque editorial de ancho completo, ── -->
+    <!-- separado de la columna angosta de la bio para que respire -->
+    <div class="historia-wrap fade-up">
+      <div class="historia-sep">
+        <span class="historia-sep-line"></span>
+        <span class="historia-sep-diamond">◆</span>
+        <span class="historia-sep-line"></span>
+      </div>
+      <span class="label historia-eyebrow">Mi Historia</span>
+      <div class="historia-content-grid">
+        <div class="historia-texto">
+          <p>En el vasto tapiz de la vida, existen héroes invisibles. Una capa resuena con especial fuerza en mi ser: la de cuidar, salvar y proteger vidas, historias y recuerdos, transformándolos en tradiciones vivas. Mi misión es tender puentes entre los humanos y los alimentos, no solo para saciar el hambre física, sino para nutrir el alma, el arte y el conocimiento.</p>
+          <p>Mis inicios se remontan a finales de los años noventa. Un día memorable, Andrés Bolívar, gran chef del SENA, detonó en mí recuerdos extraordinarios: memorias de mis ocho años, cocinando junto a mi padre una receta ancestral de los aborígenes taínos.</p>
+          <p>Mi padre, un cubano español de sensibilidad sublime, dejó un legado invaluable en las bellas artes. Me enseñó que cocinar es un acto de amor, una forma de conectar con nuestras raíces y de celebrar la vida en cada bocado.</p>
+          <p>Desde entonces, he recorrido más de doce países, absorbiendo técnicas, sabores y culturas que han enriquecido mi visión culinaria. Cada viaje ha sido un capítulo más en esta historia de sabores, saberes y territorios del mundo.</p>
+          <p>Soy Juan Antonio, chef y diseñador culinario, fundador de Les Clefs Food Design, y esta es mi historia de sabores, saberes y territorios del mundo.</p>
+        </div>
+        <!-- Firma centrada, fuera de las columnas del texto, con nombre y cargo debajo -->
+        <figure class="historia-firma-col">
+          <img src="Portafolio/Firma.png" class="chef-firma" alt="Firma Chef Juan Antonio Gómez">
+          <figcaption class="firma-nombre">
+            <strong>Juan Antonio</strong>
+            <span>Chef Diseñador</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. ESPECIALIDADES-->
+  <section id="especialidades" class="seccion">
+    <img src="FotosDecoraciones/Servicios.png" class="decor-img" alt="">
+    <div class="sec-inner">
+      <span class="label">Sabores de autor</span>
+      <h2>Especialidades del Mes</h2>
+      <p class="lead sec-lead">Cocina que celebra tradiciones hispánicas, europeas, asiáticas y colombianas, fusionadas con técnicas de alta gastronomía contemporánea.</p>
+
+      <div class="especialidades-grid">
+
+        <div class="esp-card" data-img="Portafolio/4.jpg" data-title="Alta Cocina Colombiana" data-text="Reinterpretación de ingredientes autóctonos con técnicas de vanguardia. Sabores del territorio con alma contemporánea.">
+          <div class="esp-img">
+            <img src="Portafolio/4.jpg" alt="Alta Cocina Colombiana" loading="lazy">
+          </div>
+          <div class="esp-body">
+            <span class="esp-tag">Cocina de Autor</span>
+            <h3>Alta Cocina Colombiana</h3>
+            <p>Reinterpretación de ingredientes autóctonos con técnicas de vanguardia. Sabores del territorio con alma contemporánea.</p>
+          </div>
+        </div>
+
+        <div class="esp-card" data-img="Portafolio/1.png" data-title="Pastelería de Autor" data-text="Creaciones dulces artesanales que combinan técnica francesa con productos locales premium y presentación escultórica.">
+          <div class="esp-img">
+            <img src="Portafolio/1.png" alt="Pastelería de Autor" loading="lazy">
+          </div>
+          <div class="esp-body">
+            <span class="esp-tag">Pastelería</span>
+            <h3>Pastelería de Autor</h3>
+            <p>Creaciones dulces artesanales que combinan técnica francesa con productos locales premium y presentación escultórica.</p>
+          </div>
+        </div>
+
+        <div class="esp-card" data-img="Portafolio/2.png" data-title="Mixología de Autor" data-text="Cócteles únicos que fusionan destilados internacionales con ingredientes botánicos colombianos y técnicas innovadoras.">
+          <div class="esp-img">
+            <img src="Portafolio/2.png" alt="Mixología de Autor" loading="lazy">
+          </div>
+          <div class="esp-body">
+            <span class="esp-tag">Mixología</span>
+            <h3>Mixología de Autor</h3>
+            <p>Cócteles únicos que fusionan destilados internacionales con ingredientes botánicos colombianos y técnicas innovadoras.</p>
+          </div>
+        </div>
+
+        <div class="esp-card" data-img="" data-title="Cenas de Experiencia" data-text="Menús temáticos inmersivos donde cada tiempo cuenta una historia. Maridajes, aromas y sensaciones únicas.">
+          <div class="esp-img esp-img--placeholder"></div>
+          <div class="esp-body">
+            <span class="esp-tag">Experiencias</span>
+            <h3>Cenas de Experiencia</h3>
+            <p>Menús temáticos inmersivos donde cada tiempo cuenta una historia. Maridajes, aromas y sensaciones únicas.</p>
+          </div>
+        </div>
+
+        <div class="esp-card" data-img="" data-title="Panadería Artesanal" data-text="Panes de masa madre, fermentados naturales y recetas ancestrales reconvertidas al gusto contemporáneo.">
+          <div class="esp-img esp-img--placeholder"></div>
+          <div class="esp-body">
+            <span class="esp-tag">Panadería</span>
+            <h3>Panadería Artesanal</h3>
+            <p>Panes de masa madre, fermentados naturales y recetas ancestrales reconvertidas al gusto contemporáneo.</p>
+          </div>
+        </div>
+
+        <div class="esp-card" data-img="" data-title="Fotografía Gastronómica" data-text="Contenido visual premium que convierte cada plato en obra de arte. Identidad visual para marcas y restaurantes.">
+          <div class="esp-img esp-img--placeholder"></div>
+          <div class="esp-body">
+            <span class="esp-tag">Visual</span>
+            <h3>Fotografía Gastronómica</h3>
+            <p>Contenido visual premium que convierte cada plato en obra de arte. Identidad visual para marcas y restaurantes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Galeria -->
+  <section id="galeria" class="seccion">
+    <img src="FotosDecoraciones/portafolio.jpg" class="decor-img" alt="">
+    <div class="sec-inner">
+      <span class="label">Creaciones</span>
+      <h2>Galería</h2>
+      <p class="lead sec-lead">Una selección de los proyectos más representativos. Cada trabajo refleja el nivel de excelencia y el sello creativo de Les Clefs Food Design.</p>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item" data-img="Portafolio/4.jpg" data-title="Cena de Gala Corporativa" data-text="Evento empresarial premium para 200 invitados con menú de autor de 6 tiempos. Ambientación, servicio y cocina en vivo coordinados al detalle.">
+          <div class="portfolio-circle">
+            <img src="Portafolio/4.jpg" alt="Cena de Gala Corporativa" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Cena de Gala</h3>
+            <p>Eventos corporativos</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="Portafolio/2.png" data-title="Coctelería Signature" data-text="Creaciones de mixología exclusiva con ingredientes botánicos colombianos. Barra móvil completa para eventos y lanzamientos de marca.">
+          <div class="portfolio-circle">
+            <img src="Portafolio/2.png" alt="Coctelería Signature" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Coctelería Signature</h3>
+            <p>Mixología de autor</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="Portafolio/3.png" data-title="Laboratorio Itinerante" data-text="Taller móvil de mixología y cocina con ingredientes botánicos y técnicas de vanguardia. Experiencia inmersiva para grupos seleccionados.">
+          <div class="portfolio-circle">
+            <img src="Portafolio/3.png" alt="Laboratorio Itinerante" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Laboratorio Itinerante</h3>
+            <p>Formación inmersiva</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="Portafolio/1.png" data-title="Cóctel Diplomático" data-text="Recepción oficial en la Embajada de Colombia en India. Gastronomía colombiana presentada al mundo con excelencia y rigor protocolar.">
+          <div class="portfolio-circle">
+            <img src="Portafolio/1.png" alt="Cóctel Diplomático" loading="lazy">
+          </div>
+          <div class="portfolio-caption">
+            <h3>Cóctel Diplomático</h3>
+            <p>Embajada Colombia</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="" data-title="Consultoría Integral" data-text="Rediseño completo de concepto, carta y estrategia para restaurante en Bogotá. Acompañamiento desde la concepción hasta la apertura.">
+          <div class="portfolio-circle portfolio-circle--placeholder"></div>
+          <div class="portfolio-caption">
+            <h3>Consultoría Integral</h3>
+            <p>Restaurante · Bogotá</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-img="" data-title="Fotografía Gastronómica" data-text="Contenido visual premium que posiciona marcas culinarias en el mercado. Producción profesional para restaurantes y chefs.">
+          <div class="portfolio-circle portfolio-circle--placeholder"></div>
+          <div class="portfolio-caption">
+            <h3>Fotografía Gastronómica</h3>
+            <p>Marcas culinarias</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cta-wrap cta-center" style="margin-top:52px;">
+        <a href="Apartados/Portafolio.html" class="btn-principal">Ver Galería completa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SERVICIOS — Acordeón-->
+  <section id="servicios" class="seccion">
+    <img src="FotosDecoraciones/Bienvenida.png" class="decor-img" alt="">
+    <div class="sec-inner">
+      <span class="label">Lo que hacemos</span>
+      <h2>Productos y Servicios </h2>
+      <p class="lead sec-lead">Desde eventos corporativos hasta consultoría para restaurantes, ofrecemos soluciones gastronómicas integrales de alta calidad.</p>
+      <div class="services-list">
+
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">01</span><h3>Eventos y Catering Exclusivo</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Diseño y ejecución de experiencias culinarias para eventos corporativos, sociales y diplomáticos de alto perfil.</p>
+            <ul class="svc-list">
+              <li>Menús de autor personalizados</li>
+              <li>Coordinación completa del evento</li>
+              <li>Cocina en vivo y estaciones temáticas</li>
+              <li>Servicio de protocolo diplomático</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">02</span><h3>Chef Privado Residencial</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Inteligencia alimentaria: diagnóstico de cocina, asesoría en ingredientes premium y clases magistrales en la comodidad de su hogar.</p>
+            <ul class="svc-list">
+              <li>Auditoría completa de cocina y despensa</li>
+              <li>Clases magistrales personalizadas</li>
+              <li>Planificación de menús semanales</li>
+              <li>Chef privado para eventos en casa</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">03</span><h3>Consultoría Gastronómica</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Acompañamiento completo para restaurantes y proyectos gastronómicos: desde la concepción hasta la implementación y posicionamiento de marca.</p>
+            <ul class="svc-list">
+              <li>Análisis de viabilidad y modelo de negocio</li>
+              <li>Diseño de concepto gastronómico</li>
+              <li>Ingeniería de menús y food cost</li>
+              <li>Estrategia de marca y marketing</li>
+              <li>Capacitación de equipos</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">04</span><h3>Coctelería de Autor</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Mixología creativa con barra móvil completamente equipada para eventos y celebraciones especiales.</p>
+            <ul class="svc-list">
+              <li>Cócteles signature personalizados</li>
+              <li>Barra móvil premium</li>
+              <li>Bartenders certificados</li>
+              <li>Ingredientes botánicos artesanales</li>
+            </ul>
+          </div></div>
+        </div>
+
+        <div class="svc-item">
+          <div class="svc-header">
+            <div class="svc-header-left"><span class="svc-num">05</span><h3>Fotografía y Diseño de Marca</h3></div>
+            <div class="svc-toggle"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+          </div>
+          <div class="svc-body"><div class="svc-body-inner">
+            <p>Producción de contenido visual gastronómico de alta calidad y estrategia de marca para restaurantes, chefs y proyectos culinarios.</p>
+            <ul class="svc-list">
+              <li>Fotografía gastronómica profesional</li>
+              <li>Video y producción audiovisual</li>
+              <li>Diseño de identidad visual culinaria</li>
+              <li>Estrategia en redes sociales</li>
+            </ul>
+          </div></div>
+        </div>
+
+      </div>
+      <div class="cta-wrap" style="margin-top:48px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EXPERIENCIAS CULINARIAS-->
+  <section id="experiencias" class="seccion seccion--exp">
+    <div class="sec-inner">
+      <div class="sec-header fade-up">
+        <span class="label">Vivir la gastronomía</span>
+        <h2>Experiencias</h2>
+        <p class="lead" style="margin-top:16px;">Talleres, masterclasses y cenas inmersivas donde el arte, la cultura y la gastronomía se fusionan en momentos únicos e irrepetibles.</p>
+      </div>
+      <div class="exp-grid">
+
+        <div class="exp-card fade-up">
+          <div class="exp-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <h3>Cenas de Experiencia</h3>
+          <p>Menús temáticos inmersivos que viajan por culturas, épocas y territorios. Cada tiempo cuenta una historia sensorial única.</p>
+          <ul class="exp-list">
+            <li>Menús degustación de 7 a 9 tiempos</li>
+            <li>Maridajes seleccionados</li>
+            <li>Ambientación y mise en scène</li>
+            <li>Grupos reducidos · Alta exclusividad</li>
+          </ul>
+        </div>
+
+        <div class="exp-card fade-up" style="transition-delay:0.08s;">
+          <div class="exp-card-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3>Talleres Gastronómicos</h3>
+          <p>Experiencias educativas y lúdicas donde aprender a cocinar se convierte en un viaje de descubrimiento cultural y sensorial.</p>
+          <ul class="exp-list">
+            <li>Técnicas de alta cocina</li>
+            <li>Pastelería y repostería de autor</li>
+            <li>Grupos privados o empresariales</li>
+            <li>Material y productos incluidos</li>
+          </ul>
+        </div>
+
+        <div class="exp-card fade-up" style="transition-delay:0.16s;">
+          <div class="exp-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Catas y Maridajes</h3>
+          <p>Recorridos sensoriales guiados por el mundo del vino, los destilados y la alta cocina. Arte líquido y gastronómico en perfecta armonía.</p>
+          <ul class="exp-list">
+            <li>Catas de vinos y destilados premium</li>
+            <li>Maridajes de alta cocina</li>
+            <li>Guía certificada y sommelier</li>
+            <li>Formato privado o corporativo</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="cta-wrap exp-cta">
+        <a href="#contacto-sec" class="btn-principal">Reservar una Experiencia</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. MASTERCLASES-->
+  <section id="masterclases" class="seccion seccion--master">
+    <div class="sec-inner">
+      <span class="label label--gold-dim">Formación de élite</span>
+      <h2 class="h2--light">Masterclases</h2>
+      <p class="lead lead--light" style="margin-top:16px;">Transmisión directa del conocimiento acumulado en 18 años de gastronomía internacional. Clases diseñadas para transformar su nivel culinario.</p>
+
+      <div class="master-grid" style="margin-top:52px;">
+
+        <div class="master-card fade-up">
+          <div class="master-num">01</div>
+          <div class="master-body">
+            <h3>Alta Cocina de Autor</h3>
+            <p>Técnicas de vanguardia, emplatado artístico y creatividad culinaria aplicada. Para cocineros que buscan el siguiente nivel.</p>
+          </div>
+          <div class="master-meta">
+            <span class="master-tag">Presencial</span>
+            <span class="master-tag">8 horas</span>
+            <span class="master-tag">Max. 12 personas</span>
+          </div>
+        </div>
+
+        <div class="master-card fade-up" style="transition-delay:0.08s;">
+          <div class="master-num">02</div>
+          <div class="master-body">
+            <h3>Pastelería y Repostería Fina</h3>
+            <p>Técnica francesa clásica fusionada con ingredientes locales. Creaciones que son a la vez obra de arte y experiencia gustativa.</p>
+          </div>
+          <div class="master-meta">
+            <span class="master-tag">Presencial</span>
+            <span class="master-tag">6 horas</span>
+            <span class="master-tag">Max. 10 personas</span>
+          </div>
+        </div>
+
+        <div class="master-card fade-up" style="transition-delay:0.16s;">
+          <div class="master-num">03</div>
+          <div class="master-body">
+            <h3>Mixología y Coctelería Molecular</h3>
+            <p>Del destilado al cóctel signature. Técnicas modernas, botánicos, fermentados y presentaciones que sorprenden y deleitan.</p>
+          </div>
+          <div class="master-meta">
+            <span class="master-tag">Presencial</span>
+            <span class="master-tag">5 horas</span>
+            <span class="master-tag">Max. 15 personas</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="cta-wrap master-cta">
+        <a href="#contacto-sec" class="btn-principal btn-dorado">Reservar Masterclass</a>
+        <a href="#contacto-sec" class="btn-ghost btn-ghost--light">Consultar Calendario</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. ACADEMIA-->
+  <section id="academia" class="seccion">
+    <img src="FotosDecoraciones/Experiencias.png" class="decor-img" alt="">
+    <div class="sec-inner">
+      <span class="label">Formación integral</span>
+      <h2>Academia Culinaria</h2>
+      <p class="lead sec-lead">Programas de formación intensiva y especializados para quienes desean convertir la pasión gastronómica en excelencia profesional.</p>
+      <div class="prox-grid">
+
+        <div class="prox-card fade-up">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Programa Integral de Cocina</h3>
+            <p>6 semanas intensivas de formación en alta cocina, pastelería, mixología y gestión gastronómica. Con diploma y práctica en eventos reales.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.08s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Cursos Breves Especializados</h3>
+            <p>Módulos independientes de 1 a 3 días en técnicas específicas: fermentación, postres, salsas madre, cocina al vacío y más.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.12s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Formación Corporativa</h3>
+            <p>Programas de capacitación gastronómica para equipos de empresas, restaurantes y hoteles. Diseñados a medida según sus necesidades.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.18s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Mentoría Individual</h3>
+            <p>Acompañamiento personalizado para chefs en desarrollo, emprendedores gastronómicos y profesionales que buscan elevar su nivel.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="cta-wrap cta-center" style="margin-top:52px;">
+        <a href="Apartados/Portafolio.html#academia" class="btn-principal">Ver Galería de Academia</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. VIAJES GASTRONÓMICOS-->
+  <section id="viajes" class="seccion seccion--viajes">
+    <div class="viajes-bg">
+      <img src="FotosDecoraciones/viajes.png" alt="Viajes Gastronómicos" class="viajes-img" loading="lazy">
+    </div>
+    <div class="viajes-overlay"></div>
+    <div class="viajes-content">
+      <span class="label label--gold">El mundo como destino</span>
+      <h2 class="h2--light">Viajes<br>Gastronómicos</h2>
+      <p class="lead lead--dim" style="margin-top:16px;">Expediciones culinarias inmersivas que combinan viaje, cultura y alta gastronomía en destinos de lujo a nivel mundial.</p>
+      <div class="viajes-items">
+        <div class="viaje-item">
+          <div class="viaje-ico-wrap"><svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <strong>Destinos Exclusivos</strong>
+            <p>Europa, Asia, Latinoamérica y Medio Oriente. Cocinas locales y alta gastronomía internacional.</p>
+          </div>
+        </div>
+        <div class="viaje-item">
+          <div class="viaje-ico-wrap"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <div>
+            <strong>Experiencia Completa</strong>
+            <p>Alojamiento de lujo, visitas a productores, mercados locales, clases magistrales y cenas de experiencia.</p>
+          </div>
+        </div>
+        <div class="viaje-item">
+          <div class="viaje-ico-wrap"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div>
+            <strong>Grupos Reducidos</strong>
+            <p>Máximo 12 viajeros. Atención personalizada, curación total del itinerario y experiencias a medida.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta-wrap" style="margin-top:36px;">
+        <a href="Apartados/viajes.html" class="btn-principal btn-dorado">Ver todos los Viajes</a>
+        <a href="#contacto-sec" class="btn-ghost btn-ghost--light">Solicitar Información</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. OBSEQUIOS GOURMET-->
+  <section id="obsequios" class="seccion">
+    <div class="sec-inner">
+      <span class="label">Detalles de alta cocina</span>
+      <h2>Obsequios Gourmet</h2>
+      <p class="lead sec-lead">Regalos gastronómicos de autor para empresas y personas especiales. Cada obsequio lleva el sello de excelencia y el cuidado artesanal de Les Clefs Food Design.</p>
+
+      <div class="prox-grid" style="margin-top:44px;">
+
+        <div class="prox-card fade-up">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Canastas Gourmet</h3>
+            <p>Selección artesanal de productos premium: conservas, especias, dulces finos y destilados exclusivos cuidadosamente curados.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.08s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Kits de Experiencia</h3>
+            <p>Packs temáticos para vivir una experiencia gastronómica en casa: ingredientes, recetas exclusivas y acceso a masterclass virtual.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.12s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="8" x2="8" y2="8"/><line x1="16" y1="12" x2="8" y2="12"/><line x1="16" y1="16" x2="10" y2="16"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Menús Corporativos</h3>
+            <p>Obsequios empresariales de alta gama para clientes VIP, reconocimientos y eventos especiales. Personalización total con marca corporativa.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.18s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Pastelería de Autor</h3>
+            <p>Piezas únicas de alta pastelería: tortas esculturales, macarons, chocolates artesanales y creaciones dulces para ocasiones especiales.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="cta-wrap cta-center" style="margin-top:52px;">
+        <a href="Apartados/Obsequios.html" class="btn-principal">Ver todos los Obsequios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10.5 CHACHIVACHES — SECCIÓN SIMULADA: reemplazar textos, iconos e imágenes
+       reales cuando se defina el contenido final de esta categoría. -->
+  <section id="cachivaches" class="seccion">
+    <div class="sec-inner">
+      <span class="label">Detalles con carácter</span>
+      <h2>Chachivaches</h2>
+      <p class="lead sec-lead">Objetos, curiosidades y piezas de autor para la cocina y la mesa — la selección más personal de Les Clefs Food Design. <em>(Sección de contenido provisional — pendiente de definición final.)</em></p>
+
+      <div class="prox-grid" style="margin-top:44px;">
+
+        <div class="prox-card fade-up">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Piezas de Autor</h3>
+            <p>Objetos y utensilios de cocina seleccionados por el Chef — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.08s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M3 9h18"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Ediciones Limitadas</h3>
+            <p>Piezas exclusivas y de tiraje reducido — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+        <div class="prox-card fade-up" style="transition-delay:0.12s;">
+          <div class="prox-icon-wrap">
+            <svg class="prox-svg" viewBox="0 0 24 24"><path d="M12 2l2.4 7.2H22l-6 4.4 2.3 7.2L12 16.4l-6.3 4.4 2.3-7.2-6-4.4h7.6z"/></svg>
+          </div>
+          <div class="prox-body">
+            <h3>Curiosidades de Cocina</h3>
+            <p>Detalles y hallazgos con historia para coleccionistas y amantes de la gastronomía — texto de ejemplo, pendiente de contenido definitivo.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="cta-wrap cta-center" style="margin-top:52px;">
+        <a href="Apartados/Chachivaches.html" class="btn-principal">Ver colección completa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. PODCAST -->
+  <section id="podcast" class="seccion seccion--podcast">
+    <div class="podcast-inner">
+      <span class="label">Escúchanos</span>
+      <h2>Sabores, Saberes y Territorios</h2>
+      <p class="lead" style="margin:16px auto 28px; text-align:center; max-width:480px;">El podcast del Chef Juan Antonio Gómez sobre gastronomía global</p>
+      <span class="podcast-pill">Próximamente en todas las plataformas</span>
+    </div>
+  </section>
+
+  <!-- 12. CONTACTO Y RESERVAS-->
+  <section id="contacto-sec" class="seccion seccion--contacto">
+    <div class="contact-layout">
+
+      <div class="contact-info-block fade-up">
+        <span class="label label--gold">Hablemos</span>
+        <h2 class="h2--light">Contacto<br>y Reservas</h2>
+        <p class="lead lead--dim" style="margin-top:16px;">Cuéntenos sobre su evento o proyecto. Respondemos en menos de 24 horas.</p>
+        <div class="contact-detail">
+
+          <div class="contact-detail-item">
+            <div class="cd-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 12 19.79 19.79 0 01.88 3.4 2 2 0 012.86 1.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91A16 16 0 0015.1 16.92l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="cd-label">Teléfono / WhatsApp</div>
+              <div class="cd-value"><a href="https://wa.me/573157739739" style="color:inherit;">+57 315 773 9739</a></div>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <div class="cd-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="cd-label">Ubicación</div>
+              <div class="cd-value">Bogotá, Colombia - El Mundo</div>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <div class="cd-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="cd-label">Correo</div>
+              <div class="cd-value">
+                <a href="mailto:lesclefsfooddesing@gmail.com" style="color:inherit;">lesclefsfooddesing@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <div class="cd-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </div>
+            <div>
+              <div class="cd-label">Instagram</div>
+              <div class="cd-value">
+                <a href="https://www.instagram.com/juanantoniochefdisenador" target="_blank" rel="noopener" style="color:inherit;">@juanantoniochefdisenador</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="fade-up" style="transition-delay:0.12s;">
+        <form class="cform" id="cform">
+          <input type="text"  name="Nombre"   placeholder="Nombre completo"     required autocomplete="name">
+          <input type="email" name="Email"    placeholder="Correo electrónico"  required autocomplete="email">
+          <input type="tel"   name="Telefono" placeholder="Teléfono / WhatsApp" autocomplete="tel">
+          <select name="Tipo_de_consulta" class="cform-select">
+            <option value="" disabled selected>¿En qué le podemos ayudar?</option>
+            <option value="Catering">Catering para evento</option>
+            <option value="Chef privado">Chef privado en casa</option>
+            <option value="Experiencia">Experiencia culinaria</option>
+            <option value="Masterclass">Masterclass</option>
+            <option value="Consultoria">Consultoría de restaurante</option>
+            <option value="Viaje">Viaje gastronómico</option>
+            <option value="Obsequio">Obsequio gourmet</option>
+          </select>
+          <textarea name="Mensaje" placeholder="Cuéntenos sobre su evento o proyecto…" required></textarea>
+          <button type="submit" class="btn-principal btn-dorado btn-full">
+            <svg viewBox="0 0 24 24" width="18" height="18" style="vertical-align:-3px;margin-right:8px;" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar por WhatsApp
+          </button>
+          <p class="cform-note" style="margin-top:12px;font-size:0.82rem;color:var(--gris-sua,#999);text-align:center;">
+            Al enviar, se abrirá WhatsApp con su mensaje listo para el Chef.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 <span>Les Clefs Food Design</span> &nbsp;&middot;&nbsp; Chef Juan Antonio Gómez &nbsp;&middot;&nbsp; Bogotá, Colombia</p>
+</footer>
+
+<!-- Redes sociales integradas en el header — flotantes eliminadas -->
+<script src="Estilos/script.js"></script>
+</body>
+</html>
